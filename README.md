@@ -1,4 +1,4 @@
-# DOORS
+# Doors
 
 ## English
 
