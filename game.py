@@ -108,7 +108,7 @@ def game_loop(game_specs):
             events['can_tutorial_appear'] = False
             portas.eye_door_loop(events, counters)
             events['can_tutorial_appear'] = True
-            movement = True
+            had_movement = True
 
         # ARCADE DOOR INTERACTION
         if game_coords == [1, -3] and interacao.pressed_enter(key):
@@ -117,7 +117,7 @@ def game_loop(game_specs):
                 events['knocked_arcade'] = True
 
             portas.arcade_door_loop(events, counters)
-            movement = True
+            had_movement = True
 
         # DRAWS CURRENT FRAME
         pincel.draw(frames[tuple(game_coords)], flashlight=events['flashlight_on'])
