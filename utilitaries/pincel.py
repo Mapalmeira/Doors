@@ -87,12 +87,12 @@ def calculate_drawing_real_coords(drawing):
 def generate_box_content(box):
     content = []
     for y in range(box['height']):
-        linha = ''
+        line = ''
         if y == 0 or y == box['height']-1:
-            linha = '░' * box['width']
+            line = '░' * box['width']
         else:
-            linha = '░' + ' ' * (box['width']-2) + '░'
-        content.append(linha)
+            line = '░' + ' ' * (box['width']-2) + '░'
+        content.append(line)
 
     box.update({
         'content': content,
