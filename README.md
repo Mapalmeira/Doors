@@ -3,7 +3,7 @@
 ## English
 
 This is a terminal-based puzzle and "escape the room" game developed during the first semester of Computer Science at UFCG (Federal University of Campina Grande).  
-The game was built as a final project, following a functional programming style, and uses ASCII art, animations, and keyboard interactions within the terminal.
+The game was built as a final project and uses ASCII art, animations, and keyboard interactions within the terminal.
 
 ### Features
 - ASCII-based animated graphics  
@@ -18,7 +18,7 @@ To run the game, simply execute `main.py` in a terminal that supports `curses`, 
 ## Português
 
 Este é um jogo de enigmas e "escape the room" feito para rodar no terminal, desenvolvido no primeiro período do curso de Ciência da Computação da UFCG (Universidade Federal de Campina Grande).  
-O projeto foi construído como trabalho final de período, seguindo um estilo de programação funcional, e utiliza arte em ASCII, animações e interações por teclado no terminal.
+O projeto foi construído como trabalho final de período e utiliza arte em ASCII, animações e interações por teclado no terminal.
 
 ### Funcionalidades
 - Gráficos animados em ASCII  
